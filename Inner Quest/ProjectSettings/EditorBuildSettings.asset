@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/PC/Daily.unity
+    guid: 3df8b766cb193ef4db36e63e54cc8cfd
+  - enabled: 1
+    path: Assets/Scenes/PC/Anual.unity
+    guid: 5f331ebcf8d12c34ba58c46e439d567a
+  - enabled: 1
+    path: Assets/Scenes/PC/Goals.unity
+    guid: 54d1215366dd47e42b02e99268b84a6c
+  - enabled: 1
+    path: Assets/Scenes/PC/Home.unity
+    guid: b3e02df01b047844f9c39a005fb33914
+  - enabled: 1
+    path: Assets/Scenes/PC/Weekly.unity
+    guid: 3c988540cb150e240932576267412d80
+  - enabled: 1
+    path: Assets/Scenes/PC/Monthly.unity
+    guid: 6a49b3e8c2ebc1c4e83824913f18aa08
+  - enabled: 1
+    path: Assets/Scenes/PC/Quarterly.unity
+    guid: 6a8be8093e2dabe4c91f7c983ea997ff
   m_configObjects: {}

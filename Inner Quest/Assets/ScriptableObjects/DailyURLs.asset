@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d06ee8aa1e89c9479c5cb0b534f0e69, type: 3}
+  m_Name: DailyURLs
+  m_EditorClassIdentifier: 
+  urls:
+  - key: findDailyPreview
+    value: http://journaling-app.servehalflife.com:8080/journal/api/v1/daily/find/{0}
+  - key: saveDailyPreview
+    value: http://journaling-app.servehalflife.com:8080/journal/api/v1/daily/save/preview
+  - key: saveEvent
+    value: http://journaling-app.servehalflife.com:8080/journal/api/v1/daily/save/event
+  - key: findReviewDay
+    value: http://journaling-app.servehalflife.com:8080/journal/api/v1/daily/find/review?idDay={0}
+  - key: findHabitsByDay
+    value: http://journaling-app.servehalflife.com:8080/journal/api/v1/habit/find/{0}
+  - key: saveDailyReview
+    value: http://journaling-app.servehalflife.com:8080/journal/api/v1/daily/save/review
